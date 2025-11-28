@@ -111,27 +111,31 @@ def leer_idx_lista(msg, largo):
         return None
 
 
+# ...existing code...
 def print_tabla(headers, filas, widths):
-    sep = "+"
-    for w in widths:
-        sep += "-" * (w + 2) + "+"
-    if len(filas) == 0:
-        print("No hay datos para mostrar.")
-        return
-    print(sep)
+    # calcular separador según los anchos de columna
+    total_width = sum(widths) + 3 * len(widths) + 1
+    sep = "-" * total_width
+
+    # imprimir encabezados
     linea = "|"
-    for i in range(len(headers)):
-        h = headers[i]
-        espacio = " " * (widths[i] - len(h))
-        linea += " " + h + espacio + " |"
+    for c in range(len(widths)):
+        txt = str(headers[c]) if c < len(headers) else ""
+        if len(txt) > widths[c]:
+            txt = txt[0:widths[c] - 2] + ".."
+        espacio = " " * (widths[c] - len(txt))
+        linea += " " + txt + espacio + " |"
+    print(sep)
     print(linea)
     print(sep)
+
+    # imprimir filas
     for fila in filas:
         linea = "|"
         for c in range(len(widths)):
-            txt = str(fila[c])  
+            txt = str(fila[c]) if c < len(fila) else ""
             if len(txt) > widths[c]:
-                txt = txt[0:widths[c] - 1] + "…"
+                txt = txt[0:widths[c] - 2] + ".."
             espacio = " " * (widths[c] - len(txt))
             linea += " " + txt + espacio + " |"
         print(linea)
