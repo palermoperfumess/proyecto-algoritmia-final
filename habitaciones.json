@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "codigo": "H001",
+        "tipo": "Single",
+        "ambientes": 1,
+        "capacidad": 1,
+        "precio": 60000,
+        "reservas": []  
+    },
+    {
+        "id": 2,
+        "codigo": "H002",
+        "tipo": "Single",
+        "ambientes": 1,
+        "capacidad": 1,
+        "precio": 60000,
+        "reservas": []
+    }
+    
+]

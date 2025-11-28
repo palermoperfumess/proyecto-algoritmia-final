@@ -1,0 +1,31 @@
+{
+    "fecha_sistema": "03/10/2025",
+    "fechas_especiales": [
+        {
+            "id": 1,
+            "fecha": "25/12/2025",
+            "descripcion": "Navidad",
+            "tipo": "festivo"
+        },
+        {
+            "id": 2,
+            "fecha": "01/01/2026",
+            "descripcion": "Año Nuevo",
+            "tipo": "festivo"
+        }
+    ],
+    "historial_cambios_sistema": [
+        {
+            "fecha_anterior": "02/10/2025",
+            "fecha_nueva": "03/10/2025",
+            "timestamp": "2025-10-03T08:00:00",
+            "motivo": "Inicio del sistema"
+        }
+    ],
+    "configuracion": {
+        "dias_minimos_reserva": 1,
+        "dias_maximos_anticipacion": 365,
+        "dias_cancelacion_gratuita": 2,
+        "formato_fecha": "dd/mm/aaaa"
+    }
+}
