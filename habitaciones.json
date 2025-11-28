@@ -6,7 +6,7 @@
         "ambientes": 1,
         "capacidad": 1,
         "precio": 60000,
-        "reservas": []  
+        "reservas": []
     },
     {
         "id": 2,
@@ -16,6 +16,212 @@
         "capacidad": 1,
         "precio": 60000,
         "reservas": []
+    },
+    {
+        "id": 3,
+        "codigo": "H003",
+        "tipo": "Single",
+        "ambientes": 1,
+        "capacidad": 1,
+        "precio": 60000,
+        "reservas": []
+    },
+    {
+        "id": 4,
+        "codigo": "H004",
+        "tipo": "Single",
+        "ambientes": 1,
+        "capacidad": 1,
+        "precio": 60000,
+        "reservas": []
+    },
+    {
+        "id": 5,
+        "codigo": "H005",
+        "tipo": "Single",
+        "ambientes": 1,
+        "capacidad": 1,
+        "precio": 60000,
+        "reservas": []
+    },
+    {
+        "id": 6,
+        "codigo": "H006",
+        "tipo": "Single",
+        "ambientes": 1,
+        "capacidad": 1,
+        "precio": 60000,
+        "reservas": []
+    },
+    {
+        "id": 7,
+        "codigo": "H007",
+        "tipo": "Single",
+        "ambientes": 1,
+        "capacidad": 1,
+        "precio": 60000,
+        "reservas": []
+    },
+    {
+        "id": 8,
+        "codigo": "H008",
+        "tipo": "Single",
+        "ambientes": 1,
+        "capacidad": 1,
+        "precio": 60000,
+        "reservas": []
+    },
+    {
+        "id": 9,
+        "codigo": "H009",
+        "tipo": "Single",
+        "ambientes": 1,
+        "capacidad": 1,
+        "precio": 60000,
+        "reservas": []
+    },
+    {
+        "id": 10,
+        "codigo": "H010",
+        "tipo": "Single",
+        "ambientes": 1,
+        "capacidad": 1,
+        "precio": 60000,
+        "reservas": []
+    },
+    {
+        "id": 11,
+        "codigo": "H011",
+        "tipo": "Doble",
+        "ambientes": 2,
+        "capacidad": 2,
+        "precio": 85000,
+        "reservas": []
+    },
+    {
+        "id": 12,
+        "codigo": "H012",
+        "tipo": "Doble",
+        "ambientes": 2,
+        "capacidad": 2,
+        "precio": 85000,
+        "reservas": []
+    },
+    {
+        "id": 13,
+        "codigo": "H013",
+        "tipo": "Doble",
+        "ambientes": 2,
+        "capacidad": 2,
+        "precio": 85000,
+        "reservas": []
+    },
+    {
+        "id": 14,
+        "codigo": "H014",
+        "tipo": "Doble",
+        "ambientes": 2,
+        "capacidad": 2,
+        "precio": 85000,
+        "reservas": []
+    },
+    {
+        "id": 15,
+        "codigo": "H015",
+        "tipo": "Doble",
+        "ambientes": 2,
+        "capacidad": 2,
+        "precio": 85000,
+        "reservas": []
+    },
+    {
+        "id": 16,
+        "codigo": "H016",
+        "tipo": "Doble",
+        "ambientes": 2,
+        "capacidad": 2,
+        "precio": 85000,
+        "reservas": []
+    },
+    {
+        "id": 17,
+        "codigo": "H017",
+        "tipo": "Doble",
+        "ambientes": 2,
+        "capacidad": 2,
+        "precio": 85000,
+        "reservas": []
+    },
+    {
+        "id": 18,
+        "codigo": "H018",
+        "tipo": "Doble",
+        "ambientes": 2,
+        "capacidad": 2,
+        "precio": 85000,
+        "reservas": []
+    },
+    {
+        "id": 19,
+        "codigo": "H019",
+        "tipo": "Doble",
+        "ambientes": 2,
+        "capacidad": 2,
+        "precio": 85000,
+        "reservas": []
+    },
+    {
+        "id": 20,
+        "codigo": "H020",
+        "tipo": "Doble",
+        "ambientes": 2,
+        "capacidad": 2,
+        "precio": 85000,
+        "reservas": []
+    },
+    {
+        "id": 21,
+        "codigo": "H021",
+        "tipo": "Suite",
+        "ambientes": 3,
+        "capacidad": 4,
+        "precio": 140000,
+        "reservas": []
+    },
+    {
+        "id": 22,
+        "codigo": "H022",
+        "tipo": "Suite",
+        "ambientes": 3,
+        "capacidad": 4,
+        "precio": 140000,
+        "reservas": []
+    },
+    {
+        "id": 23,
+        "codigo": "H023",
+        "tipo": "Suite",
+        "ambientes": 3,
+        "capacidad": 4,
+        "precio": 140000,
+        "reservas": []
+    },
+    {
+        "id": 24,
+        "codigo": "H024",
+        "tipo": "Suite",
+        "ambientes": 3,
+        "capacidad": 4,
+        "precio": 140000,
+        "reservas": []
+    },
+    {
+        "id": 25,
+        "codigo": "H025",
+        "tipo": "Suite",
+        "ambientes": 3,
+        "capacidad": 4,
+        "precio": 140000,
+        "reservas": []
     }
-    
 ]
